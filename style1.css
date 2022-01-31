@@ -1,0 +1,157 @@
+header {
+    background-color: #E5E5E5;
+    height: 100px;
+    align-items: center;
+}
+
+.caixa {
+    position: relative;
+    margin: auto auto;
+    width: 80%;
+    text-align: center;
+}
+
+.logo-azul {
+    display: inline-block;
+}
+
+.vetor-azul {
+    display: inline-block;
+    text-align: right;
+    border: none;
+    background-color: #E5E5E5;
+}
+
+button {
+    border: none;
+    background-color: #E5E5E5;
+}
+
+.caixa-titulo {
+    display: inline-block;
+    width: 60%;
+    text-align: center;
+    margin-top: 4%;
+}
+
+h1 {
+    color: #0C58D3;
+    text-align: center;
+    font-family: 'Ubuntu', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 72px;
+    line-height: 83px;
+    letter-spacing: -0.017em;
+}
+
+.titulo1 {
+    display: inline-block;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 700;
+    text-align: center;
+}
+
+.titulo2 {
+    display: inline-block;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 400;
+    font-style: italic;
+    padding-left: 5px;
+    text-align: center;
+}
+
+body {
+    background-color: #E5E5E5;
+}
+
+.underline {
+    text-align: center;
+    padding-top: 2%;
+    padding-bottom: 3%;
+}
+
+.input {
+    vertical-align: center;
+    margin-left: 10%;
+    margin-right: 10%;
+    width: 80%;
+    display: inline-flex;
+    justify-content: center;
+}
+
+input {
+    display: inline-flexbox;
+    padding-left: 0%;
+    width: 40%;
+    background: #FFFFFF;
+    border: 1px solid #D9D9D9;
+    box-sizing: border-box;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 14px;
+}
+
+input::placeholder {
+    font-family: 'Ubuntu', sans-serif;
+    font-style: italic;
+    font-size: 14px;
+    line-height: 16px;
+    margin-top: 4%;
+}
+
+button:hover {
+    transform: scale(1.03);
+}
+
+.cruz {
+    padding-left: 2%;
+}
+
+.listas {
+    width: 100%;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin-top: 5%;
+    margin-left: auto;
+    margin-right: auto;
+    height: 40%;
+}
+
+.listas div {
+    font-family: 'Roboto', sans-serif;
+    background-color: #FFFFFF;
+    display: inline-flexbox;
+    text-align: center;
+    width: 25%;
+    vertical-align: top;
+    margin: 0 1.5%;
+    padding: 30px 20px;
+    border: 1px solid #D9D9D9;
+    box-sizing: border-box;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 9px;
+}
+
+div p {
+    letter-spacing: -0.025em;
+    display: block;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 32px;
+    line-height: 30%;
+    margin-bottom: 1%;
+    
+}
+
+
+p img {
+    display: block;
+}
+
+div li{
+    display: inline-block;
+}
+
+
